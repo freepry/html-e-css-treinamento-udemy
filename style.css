@@ -12,6 +12,11 @@ h1 {
     color: #061761;
     text-align: center;
     font-size: 45px;
+    margin-bottom: 0;
+}
+
+h1:hover {
+    background-color: #b9c3ed;
 }
 
 h2 {
@@ -34,6 +39,12 @@ li {
 
 .center {
     text-align: center;
+    color: #061761;
+}
+
+.subtitle {
+    margin-top: 0;
+    background-color: #bec0e5;
 }
 
 a {
@@ -42,4 +53,26 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+.menu a {
+background-color: #b6b6b6;
+padding: 16px;
+display: block;
+color: #061761;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
 }
