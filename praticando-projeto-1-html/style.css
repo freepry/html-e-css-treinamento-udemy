@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(145, 203, 203);
+}
+
+.hero {
+    background-image: url(pexels-ivan-samkov-4458554.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px;
+}
+
+.title {
+    margin: 80px auto 0;
+    width: 80%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.title h1 {
+    font-size: 60px;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.title p {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 22px;
+    display: inline-block;
+    padding: 20px;
+    border-bottom: 3px solid;
+}
+
+.hero nav ul {
+    margin:  20px 100px 0 0;
+    text-align: right;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 3px solid rgb(201, 201, 201);
+    margin-left: 16px;
+}
+
+.hero nav a {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 13px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+section {
+    padding-top: 32px;
+}
+
+article {
+    background-color: aliceblue;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+article h2 {
+    border-bottom: 2px solid black;
+    background-color: rgb(234, 234, 234);
+    padding: 10px;
+    margin-top: 0;
+}
+
+.buton {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    padding: 11px 14px;
+    border-radius: 5px;
+    color: aliceblue;  
+    margin-left: auto;
+    width: fit-content;
+    text-decoration: none;
+  
+}
+
+.rodape {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    padding: 10px;
+}
